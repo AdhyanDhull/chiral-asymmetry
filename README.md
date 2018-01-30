@@ -20,6 +20,7 @@ The boilerplate codes here have been used from [The-Ragasirtahk-Blog](https://gi
 ## Setup for Yourself
 My friend [Sagar Khatri](https://github.com/ragasirtahk) has created a guide explaining how someone can create a blog like his and mine using Hugo and Netlify CMS. You can view it [here](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/).
 
+> **Note:** Feel free to use this repository for you own blog, just remember to delete my post contents from the /content/post directory. Happy Blogging!
 
 ### And Yes, this blog deploys on Netlify!
 ![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg "Deploys by Netlify")
