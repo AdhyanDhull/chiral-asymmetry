@@ -121,3 +121,25 @@ I really liked the idea of Kute app and the functionality. It has a lot of poten
 I made a logo for this project. The logo describes itself how much of hard work I have put into it. Here is the logo I made :
 
 ![](/images/uploads/eloc logo.png)
+
+
+
+\*There were also other projects I worked on like [Dengue-Stop](https://github.com/scorelab/dengue-stop), [Stackle](https://github.com/scorelab/stackle), [Androphsy](https://github.com/scorelab/androphsy), [Drola](https://github.com/scorelab/drola) and a few more...
+
+
+
+## My Journey to SCoRe LeaderBoard...
+
+It was 20th December 2017 when my friend Sagar Khatri made it to the leaderboard of Drupal(another GCI Organization), and I remember it was one reason for which I became competitive in the competition. Within two days I had completed over 6 tasks and I was on the SCoRe LeaderBoard on 22nd December 2017. Ever since then I never looked back and just put in hard work to make it big. Making it to the leaderboard further pushed me to compete harder for the Finalists or Top 5 and even for the Grand Prize Winners or Top 2.
+
+This is the LeaderBoard as of 18th Jan 2018 :
+
+![](/images/uploads/capturel.jpg)
+
+The competition ended on 17th Jan 2018, and I was constantly on the leaderboard since 22nd December 2018. Also in this iteration of GCI, I completed a total of 47 (44 SCoRe + 3 others) tasks!
+
+![](/images/uploads/tasks.jpg)
+
+I do believe in 'Quality over Quantity' and thence I have tried to put the best of my efforts to do all of my tasks.
+
+Another thing which I would like to add which separates me from my competitors is that I had no previous knowledge of Web Development or Android Development or even Designing. Coming from the absolute bottom and competing for the best with the best was absolutely thrilling. This is the reason which still arouses in me a little hope that I can still win GCI 2017 and meet my amazing mentors from SCoRe.
