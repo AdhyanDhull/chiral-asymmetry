@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Chiral Asymmetry"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "chiral-asymmetry"
-googleAnalytics = ""
+googleAnalytics = "UA-113318330-2"
 paginate = 7
 canonifyurls = true
 
