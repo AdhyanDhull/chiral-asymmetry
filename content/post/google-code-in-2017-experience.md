@@ -14,8 +14,6 @@ keywords:
 autoThumbnailImage: false
 coverImage: /images/uploads/cover.jpg
 ---
-
-
 30 days, 140+ hours of hard work, many sleepless nights, a lot of missed classes in school and a hell lot of excitement, that is how I can sum up my Google Code-In (GCI) experience for you. Let me tell you, this article itself took 6+ hours to compile and write. Enjoy reading...
 
 ![](/images/uploads/gci experiecne.png)
@@ -68,18 +66,58 @@ Here is the Architecture Diagram I created for GoCloud:
 
 ![](/images/uploads/gocloud architecture diagram.png)
 
-
-
 ## ASSET :
 
-![](/images/uploads/asset_logo.png)
+![null](/images/uploads/asset_logo.png)
 
 I created a new Homepage for Asset - An Adaptive Sensor Actuator System for Elephant Tracking after doing some research and taking inspirations. [Here ](https://github.com/scorelab/ASSET/issues/20)is the link to the issue I created with the idea.
-
-
 
 ## NodeCloud :
 
 ![](/images/uploads/logo (4).png)
 
 Well, NodeCloud is a wonderful Node.js library aiming at providing unified APIs from different cloud providers. I wrote a detailed blog on NodeCloud here. I also created a Git Pre Commit Hook to run ESLint and fixed linting errors in the google.js file. It took a little time and research on linting errors and the Git Pre Commit Hook but was easy thereafter.
+
+
+
+## Git :
+
+![](/images/uploads/849dac53ec386861333e6f24be7ce33f.jpg)
+
+One of the most important thing when contributing to open source is the mode through which you do it and GitHub just serves the purpose and is correctly called the coders' abode. I had heard about GitHub before but never used it. GCI helped me explore various functionalities of Git command line, creating upstream, fixing linting errors, cherry picking, feature branches and lot many small things which matter a lot.
+
+
+
+## D4D - Drone for Dengue :
+
+Another impeccable piece of thought put into working, D4D was the project wherein I wrote officially my first piece of code in Python (considering writing and editing different). I wrote a simple code to resize images from one directory and create a separate directory for the output images. Then I also changed the config file and then successfully ran the extract_features.py file without any errors with a little help from my friend Moses Paul.
+
+
+
+## DroneSym :
+
+I created a nice and neat logo for DroneSym which was my first project with Adobe Illustrator. I also researched on alternatives for Firebase Real-time Database and created a detailed report which included how can they be used for real-time based tracking, why were they effective for Dronesym and how they worked. Later, I also suggested an important and crucial feature for Dronesym an issue for which can be found here.
+
+Here's the logo I made for DroneSym :
+
+![](/images/uploads/dronesym logo(1).png)
+
+
+
+## Kute :
+
+I really liked the idea of Kute app and the functionality. It has a lot of potential and is the need for the modern always traveling generation. I created impressive icon and logo for the Kute app both of which were appreciated. I also wrote an article titled "Kute: The Next Big Thing?"
+
+Here is the Logo and Icon I made for Kute:
+
+![Logo](/images/uploads/kute logo version 3.png)
+
+![Icon](/images/uploads/kute logo version 2.png)
+
+
+
+## ELOC :
+
+I made a logo for this project. The logo describes itself how much of hard work I have put into it. Here is the logo I made :
+
+![](/images/uploads/eloc logo.png)
