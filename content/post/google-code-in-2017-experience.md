@@ -1,7 +1,7 @@
 ---
 title: Google Code-In 2017 Experience
 date: 2018-01-30T17:01:01.309Z
-draft: false
+draft: true
 categories:
   - Google Code-In 2017
 tags:
@@ -11,9 +11,11 @@ tags:
 keywords:
   - gci
   - scorelab
-autoThumbnailImage: true
+autoThumbnailImage: false
 coverImage: /images/uploads/cover.jpg
 ---
+
+
 30 days, 140+ hours of hard work, many sleepless nights, a lot of missed classes in school and a hell lot of excitement, that is how I can sum up my Google Code-In (GCI) experience for you. Let me tell you, this article itself took 6+ hours to compile and write. Enjoy reading...
 
 ![](/images/uploads/gci experiecne.png)
@@ -65,3 +67,19 @@ Next is the most interesting part of my working with SCoRe Lab, I conducted a se
 Here is the Architecture Diagram I created for GoCloud:
 
 ![](/images/uploads/gocloud architecture diagram.png)
+
+
+
+## ASSET :
+
+![](/images/uploads/asset_logo.png)
+
+I created a new Homepage for Asset - An Adaptive Sensor Actuator System for Elephant Tracking after doing some research and taking inspirations. [Here ](https://github.com/scorelab/ASSET/issues/20)is the link to the issue I created with the idea.
+
+
+
+## NodeCloud :
+
+![](/images/uploads/logo (4).png)
+
+Well, NodeCloud is a wonderful Node.js library aiming at providing unified APIs from different cloud providers. I wrote a detailed blog on NodeCloud here. I also created a Git Pre Commit Hook to run ESLint and fixed linting errors in the google.js file. It took a little time and research on linting errors and the Git Pre Commit Hook but was easy thereafter.
