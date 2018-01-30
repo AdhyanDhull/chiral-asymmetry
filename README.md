@@ -14,7 +14,9 @@ This is my new personal blog and will be working at [blog.adhyandhull.me](https:
 
 Please all the credit should be attributed to [original *Hexo* version](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak) and its author [Louis Barranqueiro](https://github.com/LouisBarranqueiro).
 
+### Boilerplate Credits
+The boilerplate codes here have been used from [The-Ragasirtahk-Blog](https://github.com/ragasirtahk/The-ragasirtahk-Blog) Repository
+
 ## Setup for Yourself
 My friend [Sagar Khatri](https://github.com/ragasirtahk) has created a guide explaining how someone can create a blog like his and mine using Hugo and Netlify CMS. You can view it [here](https://www.ragasirtahk.tk/2018/01/setting-up-netlify-cms-on-hugo/).
-
 
