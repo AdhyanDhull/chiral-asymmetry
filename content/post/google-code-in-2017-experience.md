@@ -78,21 +78,15 @@ I created a new Homepage for Asset - An Adaptive Sensor Actuator System for Elep
 
 Well, NodeCloud is a wonderful Node.js library aiming at providing unified APIs from different cloud providers. I wrote a detailed blog on NodeCloud here. I also created a Git Pre Commit Hook to run ESLint and fixed linting errors in the google.js file. It took a little time and research on linting errors and the Git Pre Commit Hook but was easy thereafter.
 
-
-
 ## Git :
 
-![](/images/uploads/849dac53ec386861333e6f24be7ce33f.jpg)
+![null](/images/uploads/849dac53ec386861333e6f24be7ce33f.jpg)
 
 One of the most important thing when contributing to open source is the mode through which you do it and GitHub just serves the purpose and is correctly called the coders' abode. I had heard about GitHub before but never used it. GCI helped me explore various functionalities of Git command line, creating upstream, fixing linting errors, cherry picking, feature branches and lot many small things which matter a lot.
-
-
 
 ## D4D - Drone for Dengue :
 
 Another impeccable piece of thought put into working, D4D was the project wherein I wrote officially my first piece of code in Python (considering writing and editing different). I wrote a simple code to resize images from one directory and create a separate directory for the output images. Then I also changed the config file and then successfully ran the extract_features.py file without any errors with a little help from my friend Moses Paul.
-
-
 
 ## DroneSym :
 
@@ -102,19 +96,15 @@ Here's the logo I made for DroneSym :
 
 ![](/images/uploads/dronesym logo(1).png)
 
-
-
 ## Kute :
 
 I really liked the idea of Kute app and the functionality. It has a lot of potential and is the need for the modern always traveling generation. I created impressive icon and logo for the Kute app both of which were appreciated. I also wrote an article titled "Kute: The Next Big Thing?"
 
-Here is the Logo and Icon I made for Kute:
+Here is the Logo and Icon I made for Kute:
 
 ![Logo](/images/uploads/kute logo version 3.png)
 
 ![Icon](/images/uploads/kute logo version 2.png)
-
-
 
 ## ELOC :
 
@@ -122,11 +112,7 @@ I made a logo for this project. The logo describes itself how much of hard work 
 
 ![](/images/uploads/eloc logo.png)
 
-
-
 \*There were also other projects I worked on like [Dengue-Stop](https://github.com/scorelab/dengue-stop), [Stackle](https://github.com/scorelab/stackle), [Androphsy](https://github.com/scorelab/androphsy), [Drola](https://github.com/scorelab/drola) and a few more...
-
-
 
 ## My Journey to SCoRe LeaderBoard...
 
@@ -134,12 +120,30 @@ It was 20th December 2017 when my friend Sagar Khatri made it to the leaderboard
 
 This is the LeaderBoard as of 18th Jan 2018 :
 
-![](/images/uploads/capturel.jpg)
+![null](/images/uploads/capturel.jpg)
 
 The competition ended on 17th Jan 2018, and I was constantly on the leaderboard since 22nd December 2018. Also in this iteration of GCI, I completed a total of 47 (44 SCoRe + 3 others) tasks!
 
-![](/images/uploads/tasks.jpg)
+![null](/images/uploads/tasks.jpg)
 
 I do believe in 'Quality over Quantity' and thence I have tried to put the best of my efforts to do all of my tasks.
 
-Another thing which I would like to add which separates me from my competitors is that I had no previous knowledge of Web Development or Android Development or even Designing. Coming from the absolute bottom and competing for the best with the best was absolutely thrilling. This is the reason which still arouses in me a little hope that I can still win GCI 2017 and meet my amazing mentors from SCoRe.
+Another thing which I would like to add which separates me from my competitors is that I had no previous knowledge of Web Development or Android Development or even Designing. Coming from the absolute bottom and competing for the best with the best was absolutely thrilling. This is the reason which still arouses in me a little hope that I can still win GCI 2017 and meet my amazing mentors from SCoRe.
+
+
+
+# What did I learn from GCI?
+
+Well, first of all, I would like to thank Google for providing such platforms to students from all around the globe to compete and learn a lot. It helps us interact socially with people worldwide. Competing with students like you and better than you always creates a feeling of competition which is very important in today's terms.
+
+GCI taught me a lot. To start with, we have GitHub; with the help of my mentors and from my research I can now create and handle any GitHub Repository and also perform basic functionalities on the Git command line. I can also now write simple python programs and make them perform simple functions. It is rightly said that one can't learn code but can feel it.
+
+After GCI I can proudly say I have developed a good feeling about code and would definitely like to upgrade my skill-set in 2018. I also learned a lot about the React-Native, Gradle, and Android Studio environment and I hopefully will be creating an android application soon.
+
+I am now also acquainted a bit with machine learning and how to use Node.js libraries. I have become familiar with Jekyll, Ruby on Rails, HTML and CSS and I soon will be creating my own website and a GitHub repository for it to be hosted as {[adhyandhull.github.io](https://adhyandhull.github.io)}. It's live now!
+
+And now the most important part of any program/code compilation: Debugging. I have successfully debugged a lot of files during my GCI journey and hope can do so thereafter too. 
+
+I had absolutely no idea of designing using Adobe Illustrator or Adobe Photoshop, it was when I saw "Begin as a Designer" a set of videos on YouTube made by Ansh Mehra. A big shout out to him as his videos inspired me to start with designing. Do check out the playlist here. I then saw tutorials and started using Illustrator and created some good and appreciable logos/icons.
+
+All-together I can say that I have learned a lot during this 28-day journey and wish to learn in future too because you don't need any competition to start learning :)  it's just your interest which drives you to learn something new.
