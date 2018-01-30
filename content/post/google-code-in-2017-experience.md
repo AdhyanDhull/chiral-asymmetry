@@ -2,7 +2,17 @@
 title: Google Code-In 2017 Experience
 date: 2018-01-30T17:01:01.309Z
 draft: true
+categories:
+  - Google Code-In 2017
+tags:
+  - gci
+  - google code-in
+  - scorelab
+keywords:
+  - gci
+  - scorelab
 autoThumbnailImage: true
+coverImage: /images/uploads/cover.jpg
 ---
 30 days, 140+ hours of hard work, many sleepless nights, a lot of missed classes in school and a hell lot of excitement, that is how I can sum up my Google Code-In (GCI) experience for you. Let me tell you, this article itself took 6+ hours to compile and write. Enjoy reading...
 
