@@ -1,7 +1,7 @@
 ---
 title: Google Code-In 2017 Experience
 date: 2018-01-30T17:01:01.309Z
-draft: true
+draft: false
 categories:
   - Google Code-In 2017
 tags:
@@ -52,9 +52,7 @@ This was one of the most intriguing projects I worked on, and I put a lot of tim
 
 I have also written an article on Bassa. Check it out [here](http://www.gci2017experience.ml/2018/01/bassa-automated-download-queue.html). Also [here](https://youtu.be/QAQaThaUOgE) is the link to my YouTube video on "How to  Setup Bassa"
 
-
-
-## GoCloud : 
+## GoCloud :
 
 ![](/images/uploads/logo (3).png)
 
@@ -63,8 +61,6 @@ Okay, so this was another project which quite grabbed my attention and drew me t
 In addition, I wrote a blog on GoCloud [here](http://www.gci2017experience.ml/2018/01/gocloud-cloud-services-library-for-go.html) and on "How to Set-up GoCloud" [here](http://www.gci2017experience.ml/2018/01/gocloud-how-to-set-it-up.html). I created the Architecture Diagram for GoCloud which reflected the functionality of GoCloud at a glance and was appreciated by my mentor too. 
 
 Next is the most interesting part of my working with SCoRe Lab, I conducted a session on GoCloud in my school. YouTube video for same can be found [here](https://youtu.be/dx8_lcbsb8c). The students were intrigued by the presentation and they cleared all their doubts regarding GoCloud with me. They asked many questions regarding the working and functioning of such services and I was happy to answer them all from my knowledge and research on GoCloud and service providers. Overall, it was wonderful to work on GoCloud.
-
-
 
 Here is the Architecture Diagram I created for GoCloud:
 
