@@ -152,47 +152,45 @@ As images speak more than words, here's a line graph which shows my skill progre
 
 ![](/images/uploads/my skills.png)
 
-Managing GCI with everyday life
+
+
+# Managing GCI with everyday life
+
+Okay, So I want to discuss this point as it is very important. GCI will hinder with your normal schedule like school, practicals, exams or other competitions. But it depends on your priorities, you need to manage your time well and coordinate with all happening. Sometimes it becomes difficult to manage it well and this creates a problem. I could efficiently manage my time and devote more time to GCI because it was my priority. Also a very big thanks to my parents who understood me and supported me even though I could devote less time to my studies, after all, Indian Education System mostly requires a student to score well.
+
+I have also enrolled into a Coaching Institution and I am busy all day long on the weekends, but let me tell you I was so engrossed into Code-In that I would often try to even check my dashboard for if I got a review from any mentor in the middle of those classes. That is the level of dedication and hard work I have put into GCI. But the great mentor-ship from mentors at SCoRe Lab made it easy for me to compete.
+
+Also, there was a time I would wake-up to Facebook and Instagram notifications but during GCI I could only see my E-Mail notifications, for "has the task been reviewed?", "what comment did the mentor make?" and also "has my pull request been merged?" or "has my issue been responded too?". This enthusiasm kept me going on throughout the GCI and I prefer to keep this enthusiasm for the rest on my life. 
 
 
 
-Okay, So I want to discuss this point as it is very important. GCI will hinder with your normal schedule like school, practicals, exams or other competitions. But it depends on your priorities, you need to manage your time well and coordinate with all happening. Sometimes it becomes difficult to manage it well and this creates a problem. I could efficiently manage my time and devote more time to GCI because it was my priority. Also a very big thanks to my parents who understood me and supported me even though I could devote less time to my studies, after all, Indian Education System mostly requires a student to score well.
+This one month of my participation in GCI made me grow as an open source contributor a more learned and humble person. I made good friends like Padam Chopra, Moses Paul, Raghav Puri, Shlok Jhawar and many more. After all, how can't you be good friends after having the same goal?
+
+Also a special mention for my school-mate and friend Sagar Khatri for making the Dedicated Lab Sessions for GCI in School a fun and informative and also for introducing me to Netlify CMS and helping me set-up this blog.
 
 
 
-I have also enrolled into a Coaching Institution and I am busy all day long on the weekends, but let me tell you I was so engrossed into Code-In that I would often try to even check my dashboard for if I got a review from any mentor in the middle of those classes. That is the level of dedication and hard work I have put into GCI. But the great mentor-ship from mentors at SCoRe Lab made it easy for me to compete.
+# Surprise, Surprise!!
 
+So there was a nice surprise for all of the students doing the Git Cherry Picking Task. Yes, It was an Easter Egg - the mastermind from our very own "agentmilindu";). First, as I just aimed at completing the task, I completely missed the message which showed up when I had completed the task. The message read as following and was stored in the secrets.map file.
 
-
-Also, there was a time I would wake-up to Facebook and Instagram notifications but during GCI I could only see my E-Mail notifications, for "has the task been reviewed?", "what comment did the mentor make?" and also "has my pull request been merged?" or "has my issue been responded too?". This enthusiasm kept me going on throughout the GCI and I prefer to keep this enthusiasm for the rest on my life. 
-
-
-
-This one month of my participation in GCI made me grow as an open source contributor a more learned and humble person. I made good friends like Padam Chopra, Moses Paul, Raghav Puri, Shlok Jhawar and many more. After all, how can't you be good friends after having the same goal?
-
-
-
-Also a special mention for my school-mate and friend Sagar Khatri for making the Dedicated Lab Sessions for GCI in School a fun and informative.
-
-
-
-Surprise, Surprise!!
-
-
-
-So there was a nice surprise for all of the students doing the Git Cherry Picking Task. Yes, It was an Easter Egg - the mastermind from our very own "agentmilindu";). First, as I just aimed at completing the task, I completely missed the message which showed up when I had completed the task. The message read - "The secret map to the treasures! aHR0cHM6Ly9nb28uZ2wva\*\*\*\*\*\*\*\*", was stored in the secrets.map file.
-
-
+```
+The secret map to the treasures! aHR0cHM6Ly9nb28uZ2wva********
+```
 
 Now I would also like to take you to through my treasure hunt for the final Easter Egg.
 
+The string intrigued me, thanks to my interest in cryptography that I could easily figure out that it had been encoded by Base64 encryption. I decoded the string and as I had expected, It revealed this link - 
 
+```
+https://goo.gl/hL98**
+```
 
-The string intrigued me, thanks to my interest in cryptography that I could easily figure out that it had been encoded by Base64 encryption. I decoded the string and as I had expected, It revealed this link - "https://goo.gl/hL98Gt". On opening the link, it read "Nothing is here. Nothing was here." Weird right? Why would I find something like this when I am on the right path. Then I found the following string in revisions section
+On opening the link, it read "Nothing is here. Nothing was here." Weird right? Why would I find something like this when I am on the right path. Then I found the following string in revisions section
 
-
-
- IyBXaGVuIHlvdSBwdXQgc29tZXRoaW5nIG9uIHRoZSBpbnRlcm5ldCwgaXQgaXMgaGFyZCB0byByZW1vdmUgdGhlbS4gVGh1cyBiZSBjYXJlZnVsIHdoYXQgeW91IGNvbW1pdCBhbmQgcHVzaC4gDQoNCjAxMTAwMDEwIDAxMTAxMDAxIDAxMTEwMTAwIDAwMTAxMTEwIDAxMTAxMTAwIDAxMTExMDAxIDAwMTAxMTExIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAwMDAwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAxMTEwID\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\**
+```
+ IyBXaGVuIHlvdSBwdXQgc29tZXRoaW5nIG9uIHRoZSBpbnRlcm5ldCwgaXQgaXMgaGFyZCB0byByZW1vdmUgdGhlbS4gVGh1cyBiZSBjYXJlZnVsIHdoYXQgeW91IGNvbW1pdCBhbmQgcHVzaC4gDQoNCjAxMTAwMDEwIDAxMTAxMDAxIDAxMTEwMTAwIDAwMTAxMTEwIDAxMTAxMTAwIDAxMTExMDAxIDAwMTAxMTExIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAwMDAwIDAwMTAxMTEwIDAwMTAxMTAxIDAwMTAxMTEwIDAwMTAxMTEwIDAwMTAwMDAwIDAwMTAxMTAxIDAwMTAxMTAxIDAwMTAxMTEwID*******************
+```
 
 
 
@@ -200,17 +198,9 @@ Again, lets back to Base64. So this decrypts to
 
 
 
-\# When you put something on the internet, it is hard to remove them. Thus be careful what you commit and push. 
-
-
-
-01100010 01101001 01110100 00101110 01101100 01111001 00101111 00101110 00101110 00101110 00101101 00101101 00100000 00101110 00101110 00101110 00100000 00101110 00101101 00101101 00100000 00101110 00101101 00101110 00101110 \*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*
-
-
-
-P.S Something you earned hard should not be shared with the lazy.
-
-
+```
+# When you put something on the internet, it is hard to remove them. Thus be careful what you commit and push. 01100010 01101001 01110100 00101110 01101100 01111001 00101111 00101110 00101110 00101110 00101101 00101101 00100000 00101110 00101110 00101110 00100000 00101110 00101101 00101101 00100000 00101110 00101101 00101110 00101110 ******** ******** ******** P.S Something you earned hard should not be shared with the lazy.
+```
 
 
 
@@ -218,24 +208,62 @@ Nice, we got a binary there!! And the Binary translates to :
 
 
 
-bit.ly/...-- ... .-- .-.. \*\*\*\*\*\*\*\** 
+```
+bit.ly/...-- ... .-- .-.. ********* 
+```
 
 
 
-And let me tell you, my cryptography knowledge again came to use :). Now you can see this is a shortened link but it wouldn't open to anything! Actually the part after the slash is "Morse Code". The morse code decodes to "3SWL\*\*". Well, bit.ly is case sensitive so it would be "bit.ly/3swl\*\*".
+And let me tell you, my cryptography knowledge again came to use :). Now you can see this is a shortened link but it wouldn't open to anything! Actually the part after the slash is "Morse Code". The morse code decodes to 
+
+```
+3SWL**
+```
+
+Well, bit.ly is case sensitive so it would be 
+
+```
+bit.ly/3swl**
+```
 
 
 
-Boom! We just uncovered the treasure. The URL leads you to a Google Forms page - "Treasures of Bassa" wherein the treasure hunters could fill their information and get some stuff from SCoRe Lab(if any).
+Boom! We just uncovered the treasure. The URL leads you to a Google Forms page - "Treasures of Bassa" wherein the treasure hunters could fill their information and get some Bassa Swag from SCoRe Lab.
+
+That was quite an interesting Treasure Hunt, wasn't it? Thanks to Milindu for this Easter Egg :)
+
+I have hidden some part with asterisks so that the Google Forms Page is not spammed.
+
+This easter egg also taught me to always look around once you are done doing your task, and be a good observer, rushing is never good. Lesson Taken!
 
 
 
-That was quite an interesting Treasure Hunt, wasn't it? Thanks to Milindu for this Easter Egg :)
+# Mentor-ship at par 
+
+GCI gave me an opportunity to work under great mentors from SCoRe Lab who made my first and probably only Code-In memorable -  Milindu S. Kumarage, Rumesh Eranga Hapuarachchi, Malith Senaweera, Dinith Minura, Deniz Karakay, Bhathiya Perera, Vihanga Liyanage, Akarshani Amarasinghe and all others. If it weren’t for these very talented and helpful people I would not have been able to compete. Their constant guidance and support was the fuel to the hard-work I put into the tasks. I honestly bow down to all you guys for showing such humbleness and guiding us throughout the competition.
+
+![](/images/uploads/mentors collage.png)
 
 
 
-I have hidden some part with asterisks so that the Google Forms Page is not spammed.
+SCoRe Lab is not only a Research Group but a collection of pretty witty and cooperative people, they turn what they have learned into something of great practical use, that's what I love about SCoRe Lab. I would love to remain in contact and keep contributing to the projects in all possible ways I can :)
+
+A big shout out to Milindu sir for helping at all times be it day or night and constantly guiding even with the dumbest of problems on my part, Malith sir for putting so much of his time and teaching me (indirectly) the most essential part of any coding process - debugging. Also Deniz for being an inspiration for me.
 
 
 
-This easter egg also taught me to always look around once you are done doing your task, and be a good observer, rushing is never good. Lesson Taken!
+# Should you do Google Code-In?
+
+Coming to the last part of this humongous blog, I would address the most common question - "I am not good at coding! Should I participate in Google Code-In?". In my opinion - Yes, you should! Not knowing coding should not stop you from participating and doing tasks in GCI but your thought that you can't do might stop you! So don't worry and just start doing it, different paths start opening once you take initiative and after all, we always have got Google and YouTube to help us.
+
+
+
+With all that said I am aiming for the stars as the results aren't out yet. They will be out by 31st Jan 2018 at 16:00 UTC on the Google Open Source Blog.
+
+Hope my experience provided you a detailed insight of Google Code-In
+
+
+
+That's all folks! 
+
+Thank you for reading and do provide your valuable feedback in the comment section.
