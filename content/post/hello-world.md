@@ -1,9 +1,9 @@
 ---
 title: Hello World
 date: 2018-01-20T07:21:42.000Z
+draft: true
 categories:
-  - Blog
-  - Random Discoveries
+  - Hello World
 tags:
   - New Blog
   - Hugo
