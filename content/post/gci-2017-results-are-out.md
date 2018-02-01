@@ -32,4 +32,8 @@ Here's the screenshot from the Google Code-In Winners Page.
 
 ![](/images/uploads/abc.png)
 
+
+
+I also received an email from Google for my Award Letter and Certificate. Kudos to the Google Open Source team to organize such a great event and providing us a platform to compete and interact with students and mentors form all over the globe.  It was great to be a part of GCI 2017 :)
+
 Find the results page [here](https://codein.withgoogle.com/#winners). Also check out the [Google Open Source Blog](https://opensource.googleblog.com/2018/01/google-code-in-2017-winners.html) for some cool statistics.
