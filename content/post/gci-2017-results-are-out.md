@@ -1,7 +1,7 @@
 ---
 title: GCI 2017 Results are out!
 date: 2018-02-01T07:18:12.264Z
-draft: true
+draft: false
 categories:
   - Google Code-In
 tags:
