@@ -12,6 +12,8 @@ keywords:
   - finalist
 autoThumbnailImage: false
 ---
+
+
 Cheers! I am a Google Code-In finalist for SCoRe Organization. The results were declared yesterday i.e. 31st Jan 2018 at 22:30 IST.
 
 Well it was not quite a surprise as we had already received an email regarding the same on 25th Jan 2018. I wanted to eagerly tell you all but Google asked us to keep it a secret until yesterday ;)
@@ -28,10 +30,6 @@ I hope my achievement inspires my juniors from the school and they make it big i
 
 Here's the screenshot from the Google Code-In Winners Page.
 
+![](/images/uploads/abc.png)
 
-
-
-
-
-
-Find the results page here. Also check out the Google Open Source Blog for some cool statistics.
+Find the results page [here](https://codein.withgoogle.com/#winners). Also check out the [Google Open Source Blog](https://opensource.googleblog.com/2018/01/google-code-in-2017-winners.html) for some cool statistics.
