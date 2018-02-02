@@ -1,7 +1,7 @@
 ---
 title: Hello World
-date: 2018-01-29T00:00:00+05:30
-draft: false
+date: 2018-01-28T18:30:00.000Z
+draft: true
 categories:
   - Hello World
 tags:
@@ -16,6 +16,6 @@ coverImage: /images/uploads/cover-post.jpg
 ---
 I decided to gift myself a new blog and here is the result ;)
 
-This is my personal blog and I'll be sharing the things I do or my opinions on recent news/technologies I come across.
+This blog is named 'Chiral Asymmetry' and will be my personal blog. I'll be sharing the things I do or my opinions on recent news/technologies I come across.
 
 This blog was created on Hugo and then I installed Netlify CMS on it.
