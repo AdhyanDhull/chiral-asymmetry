@@ -1,7 +1,7 @@
 ---
 title: GCI 2017 Results are out!
 date: 2018-02-01T07:18:12.264Z
-draft: false
+draft: true
 categories:
   - Google Code-In
 tags:
@@ -16,7 +16,7 @@ Cheers! I am a Google Code-In finalist for SCoRe Organization. The results were 
 
 Here's the screenshot from the Google Code-In Winners Page
 
-![](/images/uploads/abc.png)
+![null](/images/uploads/abc.png)
 
 Well it was not quite a surprise as we had already received an email regarding the same on 25th Jan 2018. I wanted to eagerly tell you all but Google asked us to keep it a secret until yesterday ;)
 
@@ -25,6 +25,8 @@ My heartiest congratulations to all the winners from all organisations!!
 I sincerely thank all the mentors from SCoRe for their co-operation and help throughout the event. It was amazing to work with you all and I look forward to keep contributing to various projects.
 
 I'd also like to thank Mr. Prabhuji Gupta for letting me know about this competition, Our Pro-Vice Chair Person Mrs. R. Mann, Headmaster Mr. Rajeev Singh and Director Mrs. Sudesh Singh for believing in me and always being supportive. It is due to the school that provided my fellow schoolmates and me a platform to learn and explore various fields whether it be Computer Science or Sports.
+
+As you might know from my previous post that I completed a total of 47 tasks. If you are curious to know about the tasks that I did check them at [tasks.adhyandhull.me](https://tasks.adhyandhull.me)
 
 The prizes that I'll receive include a GCI Hoodie, a GCI T-shirt, Digital certificate and some more goodies :)
 
