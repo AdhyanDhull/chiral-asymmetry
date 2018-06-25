@@ -1,7 +1,7 @@
 ---
 title: Long time no see...
 date: '2018-05-26T20:47:00+05:30'
-draft: true
+draft: false
 categories:
   - Japan - Sakura Science Plan
 tags:
