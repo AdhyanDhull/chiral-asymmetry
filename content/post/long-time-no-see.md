@@ -1,7 +1,7 @@
 ---
 title: Long time no see...
 date: '2018-05-25T20:47:00+05:30'
-draft: false
+draft: true
 categories:
   - japan ssp
 tags:
