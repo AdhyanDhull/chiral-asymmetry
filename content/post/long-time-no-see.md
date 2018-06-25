@@ -1,9 +1,9 @@
 ---
 title: Long time no see...
-date: '2018-05-25T20:47:00+05:30'
+date: '2018-05-26T20:47:00+05:30'
 draft: false
 categories:
-  - japan ssp
+  - Japan - Sakura Science Plan
 tags:
   - japan ssp
   - sakura science plan
