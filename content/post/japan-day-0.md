@@ -1,7 +1,7 @@
 ---
 title: Japan - Day 0
 date: '2018-05-27T22:27:00+05:30'
-draft: true
+draft: false
 categories:
   - Japan - Sakura Science Plan
 tags:
@@ -11,6 +11,8 @@ tags:
   - jica chugoku international center
 autoThumbnailImage: false
 ---
+
+
 We boarded our plane at 12:55 am today from Indira Gandhi International Airport, Delhi heading towards Narita International Airport, Tokyo. We landed in Narita at 12:30 pm, although it was a long flight but it was a nice and comfortable. Most of the students grabbed some nice sleep, but I guess the excitement kept me awake. The sunrise was one amazing thing to witness, from high above the clouds it was a mesmerizing sight. I was too busy enjoying the moment that the idea of capturing skipped my mind. 
 
 A few minutes before the landing, I was amazed to see the lush greenery outside from the small, curved plane-window. The very idea of Japan in our minds was a busy country full of sky-scrapers, but it was so different and even better than our expectations. After completing the immigration check and collecting our baggage, we were received by Sakura Science Plan Coordinators and helpers. We received our SSP Id-Cards and baggage tags. We then were taken to the lounge on Narita Airport and we attended the program orientation there. The orientation comprised of the trip details and basic information, from normal etiquettes to emergency scenarios. The orientation was followed by a quick lunch and we left for boarding our domestic flight to Hiroshima Airport. 
