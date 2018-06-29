@@ -1,7 +1,7 @@
 ---
-title: Japan - Day 0
+title: Japan - Day 1
 date: '2018-05-28T22:44:00+05:30'
-draft: true
+draft: false
 categories:
   - Japan - Sakura Science Plan
 tags:
