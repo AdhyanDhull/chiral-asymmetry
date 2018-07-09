@@ -1,5 +1,5 @@
 ---
-title: Japan SSP - Day 1
+title: Japan - Day 1
 date: '2018-05-28T22:55:00+05:30'
 draft: false
 categories:
