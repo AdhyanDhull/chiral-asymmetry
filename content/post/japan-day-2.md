@@ -2,6 +2,14 @@
 title: Japan - Day 2
 date: '2018-05-29T23:56:00+05:30'
 draft: true
+categories:
+  - Japan - Sakura Science Plan
+tags:
+  - japan-ssp
+  - sakura science plan
+  - hiroshima
+  - chugoku electric power company
+  - hiroshima university
 autoThumbnailImage: false
 ---
 
