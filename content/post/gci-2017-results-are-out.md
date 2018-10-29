@@ -1,7 +1,7 @@
 ---
 title: GCI 2017 Results are out!
 date: 2018-02-01T07:18:12.264Z
-draft: false
+draft: true
 categories:
   - Google Code-In
 tags:
@@ -20,7 +20,7 @@ Here's the screenshot from the Google Code-In Winners Page
 
 Well it was not quite a surprise as we had already received an email regarding the same on 25th Jan 2018. I wanted to eagerly tell you all but Google asked us to keep it a secret until yesterday ;)
 
-My heartiest congratulations to all the winners from all organisations!!
+My heartiest congratulations to all the winners from all organisations!
 
 I sincerely thank all the mentors from SCoRe for their co-operation and help throughout the event. It was amazing to work with you all and I look forward to keep contributing to various projects.
 
