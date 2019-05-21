@@ -28,27 +28,57 @@ This command shows all the current available IP addresses on the local network (
 
 Commonly used ports with the respective protocols:
 
-•	20 – FTP Data Transfer 
-
-•	21 – FTP Command Control
-
-•	22 – SSH 
-
-•	23 – TELNET 
-
-•	25 – SMTP
-
-•	53 – DNS 
-
-•	67, 68 – DHCP 
-
-•	80 – HTTP
-
-•	110 – POP3 
-
-•	143 – IMAP 
-
-•	443 – HTTPS
+> 20 – FTP Data Transfer 
+>
+> \
+>
+>
+> 21 – FTP Command Control 
+>
+> \
+>
+>
+> 22 – SSH 
+>
+> \
+>
+>
+> 23 – TELNET 
+>
+> \
+>
+>
+> 25 – SMTP
+>
+> \
+>
+>
+> 53 – DNS 
+>
+> \
+>
+>
+> 67, 68 – DHCP 
+>
+> \
+>
+>
+> 80 – HTTP 
+>
+> \
+>
+>
+> 110 – POP3 
+>
+> \
+>
+>
+> 143 – IMAP 
+>
+> \
+>
+>
+> 443 – HTTPS
 
 ## Port Scanning using Network Mapper (nmap):
 
@@ -58,7 +88,7 @@ Commonly used ports with the respective protocols:
 nmap -sV <target IP>
 ```
 
-![](/images/uploads/nmap.png)
+![null](/images/uploads/nmap.png)
 
 Nmap (“Network Mapper”) is an open source tool for network exploration and security auditing. It was designed to rapidly scan large networks, although it works fine against single hosts. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. While Nmap is commonly used for security audits, many systems and network administrators find it useful for routine tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.
 
@@ -70,15 +100,13 @@ The switch used here is -sV , using nmap -h :
 
 It automatically checks for the most commonly used ports using TCP method by default.
 
-
-
 ## Port Scanning using NetCat (nc):
 
 ```
 nc -z -v <target IP> <range of ports> 		
 ```
 
-![](/images/uploads/nc.png)
+![null](/images/uploads/nc.png)
 
 Netcat is a simple unix utility which reads and writes data across network connections, using TCP or UDP protocol. It is designed to be a reliable "back-end” tool that can be used directly or easily driven by other programs and scripts.  At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.  Netcat, or "nc" as the actual program is named, should have been supplied long ago as another one of those cryptic but standard Unix tools.
 
@@ -113,8 +141,6 @@ Switches used here are -T4 , -A and -v
 ```
 -v: Increase verbosity level (use -vv or more for greater effect)
 ```
-
-
 
 So that is how one could scan the most common ports open on any operating system connected on the same local network.
 
