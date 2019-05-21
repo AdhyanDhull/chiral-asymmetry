@@ -3,7 +3,7 @@ title: >-
   Port Scanning of Metasploitable2 OS using Network Mapper(nmap), NetCat (nc)
   and Zenmap in Kali Linux
 date: '2019-05-21T21:03:32+05:30'
-draft: false
+draft: true
 categories:
   - networking
 tags:
