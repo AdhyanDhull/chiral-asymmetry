@@ -84,21 +84,33 @@ Wireshark > File > Open > /root/file.pcap > Open
 
 The below is how Wireshark interface looks like, it is divided into various tab for easy access and functionality. Further more the workspace is divided into three subparts, the first showing the count and type of all the packets, second showing the protocol information and Human Level Language data, the third layer only shows the complete data being sent inside each packet that is being analysed.
 
+![]()
+
 I now looked for any hints I could find inside the lol.pcap file we found on the ftp server of the vulnerable troll machine.
 
+![]()
+
 Here I found a packet stating something about a secret_stuff.txt file, I tried to find it on the webserver but it turns out it wasn’t of much importance. 
+
+![]()
 
 What I also found is another FTP DATA packer saying something about a “sup3rs3cr3tdirlol” named file or directory.
 
 So after trying it, there existed a directory on the web server with the same name.
 
+![]()
+
 You can see that there was a file named roflmao in the directory, I downloaded it to the /root directory (default) using 
 
 wget <file address>
 
+![]()
+
 Since the file has no extension I just tried to read it string-wise, using the linux command
 
 strings <filename>
+
+![]()
 
 Another little hint hidden here was the “0x0856BF”, the first possibility of this string was to be another directory on the web server. So, I tried for just the same: 
 
