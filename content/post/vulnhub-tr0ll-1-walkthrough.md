@@ -225,3 +225,7 @@ After the execution I saw a “#” symbol which signified I have successfully g
 To further check it, I also use commands like “whoami” and “id” to confirm root access.
 
 Congratulations, we have successfully completed the walk-through, I hope you enjoyed it, regarding any doubts, I can be contacted via the contact information available on the blog.
+
+Best Regards,
+
+Adhyan Dhull
