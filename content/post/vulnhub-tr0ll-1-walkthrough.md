@@ -140,15 +140,25 @@ I downloaded both the files using wget command.
 
 Once downloaded, I edited the text files using a GUI based pre-installed text editor and removed the extra un-required text in the file containing usernames most probably. Also, since the other folder read “this_folder_contains_the_password”, just as another safety measure, I also added the name of the text file “Pass.txt” in the list of probable passwords.
 
+![]()
+
+![]()
+
 After that was done, the task was now to brute force these supposed credentials that we had, to do that, I used the tool named hydra, which is one of the best and fastest brute forcing tools available in Kali. I brute forced the SSH protocol running on port 22.
 
 hydra –L <username list> -P <password list> ssh://<IP of target machine> -V  (for verbose)
+
+![]()
+
+![]()
 
 Upon running the commands successfully, we find the brute forced username and password as “overflow” and “Pass.txt”. This proves the importance of taking hints since the filename was the password itself. 
 
 Using these credentials I tried logging in using SSH.
 
 ssh <username>@<host address>
+
+![]()
 
 The credentials successfully logged me in, now I could do some discovery in the target machine itself using basic linux commands.
 
