@@ -114,15 +114,29 @@ strings <filename>
 
 Another little hint hidden here was the “0x0856BF”, the first possibility of this string was to be another directory on the web server. So, I tried for just the same: 
 
+![]()
+
 Here I found two folders, as you can see above. Now the contents of these are shown below.
+
+![]()
 
 The “good_luck” named folder contained a text file with contents below.
 
+![]()
+
 The first most probable guess was this is a list of usernames which can be brute forced.
+
+![]()
 
 On the other hand, the other directory too had a text file named Pass.txt and containing “Good\_job\_:)” 
 
+![]()
+
 I downloaded both the files using wget command.
+
+![]()
+
+![]()
 
 Once downloaded, I edited the text files using a GUI based pre-installed text editor and removed the extra un-required text in the file containing usernames most probably. Also, since the other folder read “this_folder_contains_the_password”, just as another safety measure, I also added the name of the text file “Pass.txt” in the list of probable passwords.
 
