@@ -56,13 +56,13 @@ Trying another approach, since I found nothing in the previous one, I remember t
 
 ftp <target IP address>
 
-![]()
+![](/images/uploads/a-7-.png)
 
 Command ls is used to list all the files inside the directory.
 
 ls
 
-![]()
+![](/images/uploads/a-8-.png)
 
 Now here I found the same file as that mentioned in the aggressive network scan I did before.
 
@@ -72,7 +72,7 @@ get <filename> <local path to download  the file to>
 
 If we don’t add the local path to download the file to, it is by default saved in the /root directory with the same name.
 
-![]()
+![](/images/uploads/a-9-.png)
 
 Now that we have successfully downloaded the file onto our machine we can see what is the utility it is used for, now I already know that .pcap files are usually wireshark saved files. Wireshark is a tool, pre-installed inside kali linux, it is a free and open-source packet analyser used for network analysis, protocol developments and much more.
 
@@ -80,15 +80,15 @@ Wireshark has a GUI based environment and we open the file we just downloaded fr
 
 Wireshark > File > Open > /root/file.pcap > Open
 
-![]()
+![](/images/uploads/a-10-.png)
 
 The below is how Wireshark interface looks like, it is divided into various tab for easy access and functionality. Further more the workspace is divided into three subparts, the first showing the count and type of all the packets, second showing the protocol information and Human Level Language data, the third layer only shows the complete data being sent inside each packet that is being analysed.
 
-![]()
+![](/images/uploads/a-11-.png)
 
 I now looked for any hints I could find inside the lol.pcap file we found on the ftp server of the vulnerable troll machine.
 
-![]()
+![](/images/uploads/a-12-.png)
 
 Here I found a packet stating something about a secret_stuff.txt file, I tried to find it on the webserver but it turns out it wasn’t of much importance. 
 
