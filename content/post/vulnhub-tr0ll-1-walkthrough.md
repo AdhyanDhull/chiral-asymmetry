@@ -2,7 +2,13 @@
 title: 'Vulnhub: Tr0ll-1 Walkthrough'
 date: '2019-05-30T13:06:55+05:30'
 draft: true
-autoThumbnailImage: true
+categories:
+  - walkthrough
+tags:
+  - tr0ll-1
+  - vulnhub
+  - walkthrough
+autoThumbnailImage: false
 ---
 Tr0ll1 OS can be found at <https://www.vulnhub.com/entry/tr0ll-1,100/> and is one of the many available already vulnerable, fun for hacking machines. These machines are vulnerable by default for pen testers and beginners to try their hands on.
 
@@ -12,7 +18,7 @@ This is how the machine looks like when run in VMware.
 
 Now as with any machine, network scanning and enumeration is very important. To find the IP address of the target machine, I used 
 
-arp-scan –l
+`arp-scan –l`
 
 \-l stands for local scan and ARP is the abbreviation for Address Resolution Protocol.
 
@@ -20,23 +26,23 @@ arp-scan –l
 
 Now that I have run the command, we can see that 4 IP addresses are being displayed:
 
-192.168.183.1 is the Default Gateway of the router
+**192.168.183.1** is the Default Gateway of the router
 
-192.168.183.2 is the Default Gateway for VMware 
+**192.168.183.2** is the Default Gateway for VMware 
 
-192.168.183.254 is the Broadcast Channel which broadcasts on the whole network
+**192.168.183.254** is the Broadcast Channel which broadcasts on the whole network
 
-192.168.183.136 is the target IP address, Tr0ll-1 here.
+**192.168.183.136** is the target IP address, Tr0ll-1 here.
 
 I know now, the IP address of the target machine, so I can do an aggressive port scan using Network Mapper(nmap) for determining the versions of the services being run on ports and other information. 
 
-nmap –A –Pn <IP address>
+`nmap –A –Pn <IP address>`
 
 \-A for aggressive scan and –Pn to scan all machines even ones that don’t respond.
 
 ![](/images/uploads/a-3-.png)
 
-From the output of the aforementioned command, we can see that there are three open ports, 21 for ftp, 22 for ssh and 80 for http. Also, Anonymous FTP login is allowed and a file named “lol.pcap” in found on the ftp server. Under robots.txt file, on web server we find a disallowed directory named /secret and can be tried to access. 
+From the output of the aforementioned command, we can see that there are **three open ports, 21 for ftp, 22 for ssh and 80 for http**. Also, **Anonymous FTP login** is allowed and a file named “**lol.pcap**” in found on the ftp server. Under **robots.txt** file, on web server we find a disallowed directory named /secret and can be tried to access. 
 
 Now since http is working on port 80, I tried to access the website hosted on the IP address of the machine. 
 
@@ -54,7 +60,7 @@ Now, opening the directory I just found, I find nothing but another troll image.
 
 Trying another approach, since I found nothing in the previous one, I remember that anonymous login was allowed on the ftp server so, I connect to the ftp server on the target machine using the command
 
-ftp <target IP address>
+`ftp <target IP address>`
 
 ![](/images/uploads/a-7-.png)
 
