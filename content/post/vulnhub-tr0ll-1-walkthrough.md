@@ -92,65 +92,65 @@ I now looked for any hints I could find inside the lol.pcap file we found on the
 
 Here I found a packet stating something about a secret_stuff.txt file, I tried to find it on the webserver but it turns out it wasn’t of much importance. 
 
-![]()
+![](/images/uploads/a-13-.png)
 
 What I also found is another FTP DATA packer saying something about a “sup3rs3cr3tdirlol” named file or directory.
 
 So after trying it, there existed a directory on the web server with the same name.
 
-![]()
+![](/images/uploads/a-14-.png)
 
 You can see that there was a file named roflmao in the directory, I downloaded it to the /root directory (default) using 
 
 wget <file address>
 
-![]()
+![](/images/uploads/a-15-.png)
 
 Since the file has no extension I just tried to read it string-wise, using the linux command
 
 strings <filename>
 
-![]()
+![](/images/uploads/a-16-.png)
 
 Another little hint hidden here was the “0x0856BF”, the first possibility of this string was to be another directory on the web server. So, I tried for just the same: 
 
-![]()
+![](/images/uploads/a-17-.png)
 
 Here I found two folders, as you can see above. Now the contents of these are shown below.
 
-![]()
+![](/images/uploads/a-18-.png)
 
 The “good_luck” named folder contained a text file with contents below.
 
-![]()
+![](/images/uploads/a-19-.png)
 
 The first most probable guess was this is a list of usernames which can be brute forced.
 
-![]()
+![](/images/uploads/a-20-.png)
 
 On the other hand, the other directory too had a text file named Pass.txt and containing “Good\_job\_:)” 
 
-![]()
+![](/images/uploads/a-21-.png)
 
 I downloaded both the files using wget command.
 
-![]()
+![](/images/uploads/a-22-.png)
 
-![]()
+![](/images/uploads/a-23-.png)
 
 Once downloaded, I edited the text files using a GUI based pre-installed text editor and removed the extra un-required text in the file containing usernames most probably. Also, since the other folder read “this_folder_contains_the_password”, just as another safety measure, I also added the name of the text file “Pass.txt” in the list of probable passwords.
 
-![]()
+![](/images/uploads/a-24-.png)
 
-![]()
+![](/images/uploads/a-25-.png)
 
 After that was done, the task was now to brute force these supposed credentials that we had, to do that, I used the tool named hydra, which is one of the best and fastest brute forcing tools available in Kali. I brute forced the SSH protocol running on port 22.
 
 hydra –L <username list> -P <password list> ssh://<IP of target machine> -V  (for verbose)
 
-![]()
+![](/images/uploads/a-26-.png)
 
-![]()
+![](/images/uploads/a-27-.png)
 
 Upon running the commands successfully, we find the brute forced username and password as “overflow” and “Pass.txt”. This proves the importance of taking hints since the filename was the password itself. 
 
