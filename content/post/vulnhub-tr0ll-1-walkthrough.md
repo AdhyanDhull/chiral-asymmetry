@@ -8,7 +8,7 @@ Tr0ll1 OS can be found at <https://www.vulnhub.com/entry/tr0ll-1,100/> and is on
 
 This is how the machine looks like when run in VMware.
 
-![]()
+![](/images/uploads/a-1-.png)
 
 Now as with any machine, network scanning and enumeration is very important. To find the IP address of the target machine, I used 
 
@@ -16,7 +16,7 @@ arp-scan –l
 
 \-l stands for local scan and ARP is the abbreviation for Address Resolution Protocol.
 
-![]()
+![](/images/uploads/a-2-.png)
 
 Now that I have run the command, we can see that 4 IP addresses are being displayed:
 
@@ -34,23 +34,23 @@ nmap –A –Pn <IP address>
 
 \-A for aggressive scan and –Pn to scan all machines even ones that don’t respond.
 
-![]()
+![](/images/uploads/a-3-.png)
 
 From the output of the aforementioned command, we can see that there are three open ports, 21 for ftp, 22 for ssh and 80 for http. Also, Anonymous FTP login is allowed and a file named “lol.pcap” in found on the ftp server. Under robots.txt file, on web server we find a disallowed directory named /secret and can be tried to access. 
 
 Now since http is working on port 80, I tried to access the website hosted on the IP address of the machine. 
 
-![]()
+![](/images/uploads/a-4-.png)
 
 Here I found nothing but just an image and upon further checking for steganography, it showed no results. So, nothing new here.
 
-![]()
-
 Upon further diving into the website, I found a directory named /secret in the robots.txt file. This file, robots.txt is used to prevent web spiders (eg: google crawler showing it in search results) from accessing information inside the disallowed directories which might be confidential.
+
+![](/images/uploads/a-5-.png)
 
 Now, opening the directory I just found, I find nothing but another troll image. 
 
-![]()
+![](/images/uploads/a-6-.png)
 
 Trying another approach, since I found nothing in the previous one, I remember that anonymous login was allowed on the ftp server so, I connect to the ftp server on the target machine using the command
 
