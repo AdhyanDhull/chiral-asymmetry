@@ -66,7 +66,7 @@ Trying another approach, since I found nothing in the previous one, I remember t
 
 Command ls is used to list all the files inside the directory.
 
-ls
+`ls`
 
 ![](/images/uploads/a-8-.png)
 
@@ -74,9 +74,9 @@ Now here I found the same file as that mentioned in the aggressive network scan 
 
 To work further upon the file, I copied it to my own machine using the command
 
-get <filename> <local path to download  the file to>
+`get <filename> <local path to download  the file to>`
 
-If we don’t add the local path to download the file to, it is by default saved in the /root directory with the same name.
+If we don’t add the local path to download the file to, it is by default saved in the **/root** directory with the same name.
 
 ![](/images/uploads/a-9-.png)
 
@@ -84,7 +84,7 @@ Now that we have successfully downloaded the file onto our machine we can see wh
 
 Wireshark has a GUI based environment and we open the file we just downloaded from the target machine.
 
-Wireshark > File > Open > /root/file.pcap > Open
+_Wireshark > File > Open > /root/file.pcap > Open_
 
 ![](/images/uploads/a-10-.png)
 
