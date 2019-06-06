@@ -1,7 +1,7 @@
 ---
 title: 'Vulnhub: Kioptrix Level 1.1(#2) - Walkthrough'
 date: '2019-06-06T21:18:20+05:30'
-draft: true
+draft: false
 categories:
   - walkthrough
 autoThumbnailImage: false
