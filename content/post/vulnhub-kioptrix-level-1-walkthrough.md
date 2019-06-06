@@ -50,7 +50,13 @@ Now that the port scanning is done, we will try to see if we can find vulnerabil
 
 As I saw HTTP and HTTPS is working on their default ports only, I tried accessing the probable webpages on the server hosting but there was nothing except the page below and a link which seemed intriguing
 
+![]()
+
 Clicking on the DocumentRoot hyperlink, I am forwarded to a 404 page, but it gives me away two of the directory names, upon further inspection I find nothing of use there.
+
+![]()
+
+![]()
 
 Now that I’ve checked port 80 and 443, I checked and found that SSH login wasn’t working. The only two interesting services I could try to find exploits for were, rpcbind on port 111 and Samba on port 139.
 
@@ -66,7 +72,11 @@ set RHOSTS <target IP>
 
 exploit
 
+![]()
+
 Now from this I concluded that the version of Samba that is being used here is 2.2.1a, and searched for an exploit on https://exploit-db.com and the search parameter being “samba 2.2.x” 
+
+![]()
 
 Using this I tried a few exploits present here and I got my first success from the highlighted exploit, so I’ll just show how to use it here.
 
@@ -84,8 +94,12 @@ To execute it, we simply use
 
 ./<executable name>
 
+![]()
+
 Now this exploit needs some parameters to function and attack the correct target,
 
 ./samba-exploit –t <target address>
+
+![]()
 
 This directly gave us root access, and boom we’re in. I also rechecked, using the linux commands whoami and id.
