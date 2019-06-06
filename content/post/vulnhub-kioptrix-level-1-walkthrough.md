@@ -6,39 +6,37 @@ categories:
   - walkthrough
 autoThumbnailImage: false
 ---
-
-
 Today I tried another vulnerable machine which can be found at <https://www.vulnhub.com/entry/kioptrix-level-1-1,22/> and is often the beginner’s first choice for an OSCP lab type environment.
 
 This is how the vulnerable machine looks like in VMware
 
-![](/images/uploads/aa-1-.png)
+![null](/images/uploads/aa-1-.png)
 
 Now I started with discovering the target IP on the discover-able network, but I couldn’t find anything other than the default gateway and broadcast IP addresses.
 
 After changing the network settings in VMware from Bridged to NAT, I tried rebooting and still couldn’t discover the machine, I checked again and figured out the machine was configured to start in Bridged mode only.
 
-After doing some research I found a simple available solution, I just had to edit the _**.vmx**_ file and change a few defaults.
+After doing some research I found a simple available solution, I just had to edit the **_.vmx_** file and change a few defaults.
 
-![](/images/uploads/aa-2-.png)
+![null](/images/uploads/aa-2-.png)
 
-![](/images/uploads/aa-3-.png)
+![null](/images/uploads/aa-3-.png)
 
-The highlighted parts are changed from “_**Bridged**_” to “_**NAT**_” or “_**bridged**_” to “_**nat**_”
+The highlighted parts are changed from “**_Bridged_**” to “**_NAT_**” or “**_bridged_**” to “**_nat_**”
 
-Now upon running the _**arp-scan**_ command again, I could successfully discover the target IP address and this solved the issue.
+Now upon running the **_arp-scan_** command again, I could successfully discover the target IP address and this solved the issue.
 
-`arp-scan –l `	or 	`netdiscover –i eth0`
+`arp-scan –l`	or 	`netdiscover –i eth0`
 
-![](/images/uploads/aa-4-.png)
+![null](/images/uploads/aa-4-.png)
 
-Now that we know the IP address of the target machine is _**192.168.192.132**_, we can do enumeration on the target.
+Now that we know the IP address of the target machine is **_192.168.192.132_**, we can do enumeration on the target.
 
 We start with Network-Mapper to do the port scanning and scavenge all the services running on all/most important ports.
 
 `nmap –A –Pn <target IP address>`
 
-![](/images/uploads/aa-5-.png)
+![null](/images/uploads/aa-5-.png)
 
 Below is the complete output highlighting the ports and services running on them:
 
@@ -50,21 +48,21 @@ Now that the port scanning is done, we will try to see if we can find vulnerabil
 
 As I saw HTTP and HTTPS is working on their default ports only, I tried accessing the probable webpages on the server hosting but there was nothing except the page below and a link which seemed intriguing
 
-![](/images/uploads/aa-6-.png)
+![null](/images/uploads/aa-6-.png)
 
 Clicking on the _**DocumentRoot **_hyperlink, I am forwarded to a 404 page, but it gives me away two of the directory names, upon further inspection I find nothing of use there.
 
-![](/images/uploads/aa-7-.png)
+![null](/images/uploads/aa-7-.png)
 
-![](/images/uploads/aa-8-.png)
+![null](/images/uploads/aa-8-.png)
 
-Now that I’ve checked _**port 80 and 443**_, I checked and found that_** SSH login**_ wasn’t working. The only two interesting services I could try to find exploits for were, _**rpcbind on port 111 and Samba on port 139.**_
+Now that I’ve checked **_port 80 and 443_**, I checked and found that**_ SSH login_** wasn’t working. The only two interesting services I could try to find exploits for were, **_rpcbind on port 111 and Samba on port 139._**
 
 Now after some research I found out that open _**rpcbind **_port can be used for Denial of Service attacks only, so I then came to Samba. Using a script in Metasploit framework, to determine the _**Samba version**_ being used on the target machine I wrote the following commands:
 
 `msfconsole`
 
-`use auxiliary/scanner/smb/smb_version `
+`use auxiliary/scanner/smb/smb_version`
 
 `show options`
 
@@ -72,11 +70,11 @@ Now after some research I found out that open _**rpcbind **_port can be used for
 
 `exploit`
 
-![](/images/uploads/aa-9-.png)
+![null](/images/uploads/aa-9-.png)
 
-Now from this I concluded that the version of Samba that is being used here is _**2.2.1a**_, and searched for an exploit on <https://exploit-db.com> and the search parameter being “_**samba 2.2.x**_” 
+Now from this I concluded that the version of Samba that is being used here is **_2.2.1a_**, and searched for an exploit on <https://exploit-db.com> and the search parameter being “**_samba 2.2.x_**” 
 
-![](/images/uploads/aa-10-.png)
+![null](/images/uploads/aa-10-.png)
 
 Using this I tried a few exploits present here and I got my first success from the highlighted exploit, so I’ll just show how to use it here.
 
@@ -84,7 +82,7 @@ First of all I’ll download the exploit from the exploit, this can be done manu
 
 `wget <file url>` 
 
-Now the file I downloaded was named “_**22469.c**_”
+Now the file I downloaded was named “**_22469.c_**”
 
 We now have to compile the exploit to be executable using
 
@@ -94,12 +92,20 @@ To execute it, we simply use
 
 `./<executable name>`
 
-![](/images/uploads/aa-11-.png)
+![null](/images/uploads/aa-11-.png)
 
 Now this exploit needs some parameters to function and attack the correct target,
 
 `./samba-exploit –t <target address>`
 
-![](/images/uploads/aa-12-.png)
+![null](/images/uploads/aa-12-.png)
 
 This directly gave us root access, and boom we’re in. I also rechecked, using the linux commands `whoami` and `id`.
+
+Congratulations, we have successfully completed the walk-through, I hope you enjoyed it, regarding any doubts, I can be contacted via the contact information available on the blog.
+
+
+
+Best Regards,
+
+Adhyan Dhull
