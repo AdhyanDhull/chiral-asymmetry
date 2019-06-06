@@ -12,7 +12,7 @@ Today I tried another vulnerable machine which can be found at https://www.vulnh
 
 This is how the vulnerable machine looks like in VMware
 
-![]()
+![](/images/uploads/aa-1-.png)
 
 Now I started with discovering the target IP on the discoverable network, but I couldn’t find anything other than the default gateway and broadcast IP addresses.
 
@@ -20,9 +20,9 @@ After changing the network settings from the VMware from Bridged to NAT, I tried
 
 After doing some research I found a simple available solution, I just had to edit the .vmx file and change a few defaults.
 
-![]()
+![](/images/uploads/aa-2-.png)
 
-![]()
+![](/images/uploads/aa-3-.png)
 
 The highlighted parts are changed from “Bridged” to “NAT” or “bridged” to “nat”
 
@@ -30,7 +30,7 @@ Now upon running the arp-scan command again, I could successfully discover the t
 
 arp-scan –l 	or 	netdiscover –i eth0
 
-![]()
+![](/images/uploads/aa-4-.png)
 
 Now that we know the IP address of the target machine is 192.168.192.132, we can do enumeration on the target.
 
@@ -38,7 +38,7 @@ We start with Network-Mapper to do the port scanning and scavenge all the servic
 
 nmap –A –Pn <target IP address>
 
-![]()
+![](/images/uploads/aa-5-.png)
 
 Below is the complete output highlighting the ports and services running on them:
 
