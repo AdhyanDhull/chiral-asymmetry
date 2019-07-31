@@ -12,11 +12,9 @@ autoThumbnailImage: false
 
 All we ever look around and see or notice is in 3 Dimensions or an interpretation of the same in 2-Dimensional Plane. I found it personally very intriguing about art in 4 Dimensions. I’ll try to show below the best possible and understandable representation of 4-dimensional art in a 2-Dimensional Picture.
 
-When the concept of Fourth Dimension came into existence upon thoughts of theorists, it was one of the most difficult things to visualise it, many artists from back in the day took it as a challenge to portray their level best of it.
+When the concept of Fourth Dimension came into existence upon thoughts of theorists, it was one of the most difficult things to visualize it, many artists from back in the day took it as a challenge to portray their level best of it.
 
-This really intrigued me. Art, as we think of it, comes from real life incidents or vivid thoughts, but art of something which cannot be experienced, felt, seen or even visualised. How special it would be. I hope you all enjoy reading as much as I did researching and learning about it.
-
-Now it’s not every day that such weird thoughts hit me, but when I read about the Visual Diary and I wanted to present something so unique that it hasn’t been even explored completely. I thought of it being one of the very best examples of code and art in combination. 
+This really intrigued me. Art, as we think of it, comes from real life incidents or vivid thoughts, but art of something which cannot be experienced, felt, seen or even visualized. How special it would be. I hope you all enjoy reading as much as I did researching and learning about it.
 
 The human brain is only designed to interpret what is sees, and all of what our eyes see is 3-dimensional space, but they’ve also gotten accustomed to representations of the same in 2 dimensions, still not proficient at it though. It is extremely hard for a human brain to think and interpret another dimension, since we’ve never come across a 4-Dimensional space which bewilders our imagination.
 
