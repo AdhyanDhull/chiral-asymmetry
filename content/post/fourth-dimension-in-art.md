@@ -1,7 +1,7 @@
 ---
 title: Fourth Dimension in Art
 date: '2019-07-31T20:49:00+10:00'
-draft: true
+draft: false
 categories:
   - art
 autoThumbnailImage: false
