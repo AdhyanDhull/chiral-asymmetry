@@ -22,13 +22,14 @@ The human brain is only designed to interpret what is sees, and all of what our 
 
 Note that the thought of another dimension is not that recent, its been in discussion and thought since the past 7 decades. 
 
-**Dalí’s Crucifixion (Corpus Hybercubus)**
+**Dalí’s Crucifixion (Corpus Hybercubus)
+**
 
+![null](/images/uploads/dali_crucifixion_hypercube.jpg)
 
-
-![]()
-
-_Source: _[_https://en.wikipedia.org/wiki/Crucifixion_(Corpus_Hypercubus)_](https://en.wikipedia.org/wiki/Crucifixion_(Corpus_Hypercubus))
+_
+Source: _[_https://en.wikipedia.org/wiki/Crucifixion_(Corpus_Hypercubus)
+_](https://en.wikipedia.org/wiki/Crucifixion_(Corpus_Hypercubus))
 
  A very special and one of its kind painting from 1954 by the surrealist Salvador Dalí. He often cited the painting to be “an explosive, nuclear and hypercubic” crucifixion scene. Not only that, in the summer of 1953, he proudly exclaimed that the painting will be “the great metaphysical work of \[his] summer”
 
@@ -38,21 +39,13 @@ Lets talk about how in everyday life we represent 3-D shapes/figures in a 2D pla
 
 Taking an example, we know that a 3D cube can be opened by its faces in a 2D plane somewhat like this
 
+![null](/images/uploads/3din2d.jpg)
 
+Now similarly if we want to open a 4D cube called tesseract, in a 3D space, we will get something of this sort
 
-![]()
+![null](/images/uploads/4din3d.png)
 
-
-
-Now similarly if we want to open a 4D cube called tesseract, in a 3D space, we will get something of this sort
-
-
-
-![]()
-
-
-
-This is exactly what we see Dali doing back in 1954 with his painting. His sheer interest in mathematics, theoretical physics is depicted in his artwork. This masterpiece of his has often accredited him to “have found new meaning in a traditional biblical scene by breaking out of three dimensions.”
+This is exactly what we see Dali doing back in 1954 with his painting. His sheer interest in mathematics, theoretical physics is depicted in his artwork. This masterpiece of his has often accredited him to “have found new meaning in a traditional biblical scene by breaking out of three dimensions.”
 
 Quoting from <http://www.bbc.com/culture/story/20160511-the-painter-who-entered-the-fourth-dimension> ,
 
@@ -62,37 +55,29 @@ Quoting from <http://www.bbc.com/culture/story/20160511-the-painter-who-entered-
 
 It indeed is a marvel.
 
+**Pablo Picasso’s 1910 Portrait of Daniel-Henry Kahnweiler
+**
 
+![null](/images/uploads/picasso_portrait_of_daniel-henry_kahnweiler_1910.jpg)
 
-**Pablo Picasso’s 1910 Portrait of Daniel-Henry Kahnweiler**
-
- 
-
-![]()
+_Source: _[_https://en.wikipedia.org/wiki/Fourth_dimension_in_art_](https://en.wikipedia.org/wiki/Fourth_dimension_in_art)
 
 Another one of Picasso’s masterpieces, he tries to explore the unknown, the dimension we can’t experience and helps to give us an example of the asymmetry through mere oil paints on a canvas.
 
-
-
 **Albert Gleizes’ 1913, Portrait de l’éditeur Eugène Figuière**
 
+![null](/images/uploads/albert_gleizes-_1913-_portrait_de_l’éditeur_eugène_figuière.jpg)
 
-
-![]()
-
- 
+_Source: _[_https://en.wikipedia.org/wiki/Fourth_dimension_in_art_](https://en.wikipedia.org/wiki/Fourth_dimension_in_art)
 
 Not so after Picasso, Albert Gleizes unveiled his masterpiece interpreting the same unknown dimensions of art and reality.
 
-
-
-**Extra Information:**
+**Extra Information:
+**
 
 Another very cool piece of art is this
 
- 
-
-![]()
+![null](/images/uploads/klein-bottle.jpg)
 
 No, its not a piece of lab equipment, it’s a piece of art so unique that its mind boggling. This is what is called a Klein Bottle, it’s a 3D shadow of 4D Mobius’ Loop.
 
@@ -102,16 +87,17 @@ We might find that the part of bottle goes from inside itself in 3D but it just 
 
 
 
-If you want to try your hands on something even cooler, I’d recommend trying this 4D Rubik’s cube here [Magic Cube 4D](http://superliminal.com/cube/cube.htm)
+Bored of a 3D cube? If you want to try your hands on something even cooler, I’d recommend trying this 4D Rubik’s cube here [Magic Cube 4D](http://superliminal.com/cube/cube.htm)
 
-![]()
+![null](/images/uploads/rubic-s-cube-in-4d.png)
 
- And if even that’s not enough, there exists a 5D version too - [MagicCube5D](http://www.gravitation3d.com/magiccube5d/)
+And if even that’s not enough, there exists a 5D version too - [MagicCube5D
+](http://www.gravitation3d.com/magiccube5d/)
 
-
-
-![]()
+![null](/images/uploads/rubic-s-cube-in-5d.png)
 
 If anyone find this intriguing and interesting, I’d highly recommend watching “Four Dimensional Maths: Things to See and Hear in the Fourth Dimension - with Matt Parker” on YouTube (<https://www.youtube.com/watch?v=1wAaI_6b9JE&t=2369s>) 
 
 Just open the link as it starts from the right time in the video to learn about 4th dimensional mathematics.
+
+Hope 4th Dimension treated you well and you learned something artistically new.
